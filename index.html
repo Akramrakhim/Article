@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Articles</title>
+  <title>Sayyohat haqida sayt</title>
   <!-- GOOGLE FONT LINK -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,74 +14,75 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-
-    <section class="hero">
-      <div class="layout-2-1">
-        <h2 class="hero-heading">Sayohat haqidagi eng qiziq <br>
-          bloglarni kuzatib boring.</h2>
-          <button class="button button-hero" type="button">
-            <span class="button-hero-icon"></span>
-            <span class="button-hero-text"> top bloglar</span></button>
+<main class="main-content">
+    <div class="global-wraper">
+      <div class="hero">
+        <div class="hero-content">
+          <h1 class="hero-heading">Sayohat haqidagi eng qiziq bloglarni kuzatib boring.</h1>
+            <a class="hero-link">
+              <span class="hero-link-inner">
+              <span class="hero-link-text"> top bloglar</span></span>
+            </a>
+        </div>
       </div>
 
-
-
-      <div class="main-layout-2-1">
-        <h2 class="main-layout-2-1-heading">Eng so’nggi videolar</h2>
-        <hr class="main-layout-2-1-hr">
-
-            <div class="main-layout-item">
-              <img class="main-layout-img" src="/img/article-poster.jpg" alt="" width="160" height="90" srcset="/img/article-poster.jpg 1x, /img/article-poster@2x.jpg 2x" >
-              <div class="main-layout-action">
-                <h3 class="main-layout-item-heading"><a href="#">O’rmonda uchburchaksimon uy qurdik</a></h3>
-                <footer class="main-layout-2-1-footer">
-                  <span class="main-layout-clock"></span>
-                  <p class="main-layout-text">1 hafta oldin</p>
-                  <span class="main-layout-2-1-eye"></span>
-                  <p class="main-layout-text">873 ming</p>
-                </footer>
+      <section class="latest-videos">
+        <h2 class="latest-videos-heading">Eng so’nggi videolar</h2>
+        <hr class="latest-videos-divider">
+        <ul class="latest-videos-list">
+          <!-- ITEM -->
+          <li class="latest-videos-item">
+            <div class="item-latest-videos">
+              <img class="item-latest-videos-img" src="/img/article-poster.jpg" alt="" width="160" height="90" srcset="/img/article-poster.jpg 1x, /img/article-poster@2x.jpg 2x" >
+              <div class="item-latest-videos-info">
+                <h3 class="item-latest-videos-heading">
+                  <a class="item-latest-videos-link" href="#">O’rmonda uchburchaksimon uy qurdik</a>
+                </h3>
+                <div class="item-latest-videos-meta">
+                  <time class="item-latest-videos-meta-item item-latest-videos-meta-item-published-at" datetime="2021-09-23">1 hafta oldin</time>
+                  <div class="item-latest-videos-meta-item item-latest-videos-meta-item-views">873 ming</div>
+                </div>
               </div>
             </div>
-
-
-          <div class="main-layout-item">
-            <img class="main-layout-img" src="/img/article-poster-1.jpg" width="160" height="90" alt="" srcset="/img/article-poster-1.jpg 1x, /img/article-poster@2x-1.jpg 2x">
-            <div class="main-layout-action">
-              <h3 class="main-layout-item-heading"><a href="#">Sibirliklarning qoldirib ketilgan uychalari</a></h3>
-              <footer class="main-layout-2-1-footer">
-                <span class="main-layout-clock"></span>
-                <p class="main-layout-text">3 hafta oldin</p>
-                <span class="main-layout-2-1-eye"></span>
-                <p class="main-layout-text">819 ming</p>
-              </footer>
+          </li>
+          <!-- ITEM2 -->
+          <li class="latest-videos-item">
+            <div class="item-latest-videos">
+              <img class="item-latest-videos-img" src="/img/article-poster-1.jpg" alt="" width="160" height="90" srcset="/img/article-poster-1.jpg 1x, /img/article-poster-1@2x.jpg 2x" >
+              <div class="item-latest-videos-info">
+                <h3 class="item-latest-videos-heading">
+                  <a class="item-latest-videos-link" href="#">Sibirliklarning qoldirib ketilgan uychalari</a>
+                </h3>
+                <div class="item-latest-videos-meta">
+                  <time class="item-latest-videos-meta-item item-latest-videos-meta-item-published-at" datetime="2021-09-09">3 hafta oldin</time>
+                  <div class="item-latest-videos-meta-item item-latest-videos-meta-item-views">819 ming</div>
+                </div>
+              </div>
             </div>
-          </div>
+          </li>
+          <!-- ITEM3 -->
+          <li class="latest-videos-item">
+            <div class="item-latest-videos">
+              <img class="item-latest-videos-img" src="/img/article-poster-2.jpg" alt="" width="160" height="90" srcset="/img/article-poster-2.jpg 1x, /img/article-poster-2@2x.jpg 2x" >
+              <div class="item-latest-videos-info">
+                <h3 class="item-latest-videos-heading">
+                  <a class="item-latest-videos-link" href="#">Yer-uyida mallarang kuchugim bilan tunab qoldik</a>
+                </h3>
+                <div class="item-latest-videos-meta">
+                  <time class="item-latest-videos-meta-item item-latest-videos-meta-item-published-at" datetime="2021-08-26">1 oy  oldin</time>
+                  <div class="item-latest-videos-meta-item item-latest-videos-meta-item-views">4.2 million</div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+  <button class="load-more-button" type="button">Yana yuklash</button>
+
+      </section>
 
 
-
-        <div class="main-layout-item">
-          <img class="main-layout-img" src="/img/article-poster-2.jpg" width="160" height="90" alt="" srcset="/img/article-poster-2.jpg 1x, /img/article-poster@2x-2.jpg 2x">
-          <div class="main-layout-action">
-            <h3 class="main-layout-item-heading"><a href="#"> Yer-uyida mallarang kuchugim bilan tunab qoldik</a></h3>
-            <footer class="main-layout-2-1-footer">
-              <span class="main-layout-clock"></span>
-              <p class="main-layout-text">1 oy oldin</p>
-              <span class="main-layout-2-1-eye"></span>
-              <p class="main-layout-text">3.9 million</p>
-            </footer>
-          </div>
-        </div>
-
-
-
-  <button class="button button-layout" type="button">Yana yuklash</button>
-
-      </div>
-
-
-    </section>
-</div>
+    </div>
+</main>
 
 </body>
 </html>
